@@ -12,7 +12,7 @@ import objectrepository2.Finishpage;
 import objectrepository2.Homepage;
 
 public class AddProducttocart extends BaseClass2 {
-	@Test
+	@Test(groups="smoke")
 	public void productadd()
 	{
 		Homepage hp=new Homepage(driver);
@@ -27,7 +27,7 @@ public class AddProducttocart extends BaseClass2 {
 		Assert.assertEquals(actualmsg,expectedmsg);
 		
 	}
-	@Test
+	@Test(groups="regression")
 	public void printallproductprice()
 	{
 		List<WebElement> E=driver.findElements(By.xpath("//div[@class='inventory_item_name']"));

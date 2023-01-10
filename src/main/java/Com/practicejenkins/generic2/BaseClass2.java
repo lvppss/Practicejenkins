@@ -19,7 +19,7 @@ public class BaseClass2 {
 	public WebDriver driver;
 	public Webdriverutility wutil;
 	public Readdatafrompropertiesfile prop=new Readdatafrompropertiesfile();
-	@BeforeClass
+	@BeforeClass(groups= {"smoke","regression"})
 	public void launchingbrowser()
 	{
 		driver=new ChromeDriver();
@@ -27,7 +27,7 @@ public class BaseClass2 {
 		wutil.maximizewindow();
 		wutil.waitforpageload();
 	}
-	@BeforeMethod
+	@BeforeMethod(groups= {"smoke","regression"})
 	public void login() throws IOException
 	{
 
@@ -39,7 +39,7 @@ public class BaseClass2 {
 		Lp.login(un, pwd);
 		Lp.loginbutton();
 	}
-	@AfterMethod
+	@AfterMethod(groups= {"smoke","regression"})
 	public void logout() throws InterruptedException
 	{
 		Homepage hp=new Homepage(driver);
@@ -47,7 +47,7 @@ public class BaseClass2 {
 		Thread.sleep(3000);
 				hp.logout2();
 	}
-	@AfterClass
+	@AfterClass(groups= {"smoke","regression"})
 	public void closingBrowser()
 	{
 		driver.close();
