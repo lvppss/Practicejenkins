@@ -15,7 +15,7 @@
 		<classes>
 			<class name="PracticeAutomation2.AddProducttocart">
 				<methods>
-					<include name="printallproductprice" />
+					<include name="printallproductprice"/>
 
 				</methods>
 			</class>
