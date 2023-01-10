@@ -2,32 +2,35 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-10T10:48:31 IST" name="Suite" finished-at="2023-01-10T10:48:45 IST" duration-ms="14423">
+  <suite started-at="2023-01-10T16:45:59 IST" name="Suite" finished-at="2023-01-10T16:46:54 IST" duration-ms="55043">
     <groups>
+      <group name="smoke">
+        <method signature="AddProducttocart.productadd()[pri:0, instance:PracticeAutomation2.AddProducttocart@446293d]" name="productadd" class="PracticeAutomation2.AddProducttocart"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-01-10T10:48:31 IST" name="Test_runner-1" finished-at="2023-01-10T10:48:45 IST" duration-ms="14423">
+    <test started-at="2023-01-10T16:45:59 IST" name="Test" finished-at="2023-01-10T16:46:54 IST" duration-ms="55043">
       <class name="PracticeAutomation2.AddProducttocart">
-        <test-method is-config="true" signature="launchingbrowser()[pri:0, instance:PracticeAutomation2.AddProducttocart@3514a4c0]" started-at="2023-01-10T10:48:31 IST" name="launchingbrowser" finished-at="2023-01-10T10:48:33 IST" duration-ms="2702" status="PASS">
+        <test-method is-config="true" signature="launchingbrowser()[pri:0, instance:PracticeAutomation2.AddProducttocart@446293d]" started-at="2023-01-10T16:45:59 IST" name="launchingbrowser" finished-at="2023-01-10T16:46:02 IST" duration-ms="3641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingbrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:PracticeAutomation2.AddProducttocart@3514a4c0]" started-at="2023-01-10T10:48:33 IST" name="login" finished-at="2023-01-10T10:48:37 IST" duration-ms="3777" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:PracticeAutomation2.AddProducttocart@446293d]" started-at="2023-01-10T16:46:02 IST" name="login" finished-at="2023-01-10T16:46:50 IST" duration-ms="47485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="productadd()[pri:0, instance:PracticeAutomation2.AddProducttocart@3514a4c0]" started-at="2023-01-10T10:48:37 IST" name="productadd" finished-at="2023-01-10T10:48:38 IST" duration-ms="696" status="PASS">
+        <test-method signature="productadd()[pri:0, instance:PracticeAutomation2.AddProducttocart@446293d]" started-at="2023-01-10T16:46:50 IST" name="productadd" finished-at="2023-01-10T16:46:50 IST" duration-ms="651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productadd -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:PracticeAutomation2.AddProducttocart@3514a4c0]" started-at="2023-01-10T10:48:38 IST" name="logout" finished-at="2023-01-10T10:48:41 IST" duration-ms="3122" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:PracticeAutomation2.AddProducttocart@446293d]" started-at="2023-01-10T16:46:50 IST" name="logout" finished-at="2023-01-10T16:46:54 IST" duration-ms="3169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:PracticeAutomation2.AddProducttocart@3514a4c0]" started-at="2023-01-10T10:48:41 IST" name="closingBrowser" finished-at="2023-01-10T10:48:45 IST" duration-ms="4066" status="PASS">
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:PracticeAutomation2.AddProducttocart@446293d]" started-at="2023-01-10T16:46:54 IST" name="closingBrowser" finished-at="2023-01-10T16:46:54 IST" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
       </class> <!-- PracticeAutomation2.AddProducttocart -->
-    </test> <!-- Test_runner-1 -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
