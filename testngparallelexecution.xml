@@ -5,7 +5,7 @@
 		<classes>
 			<class name="PracticeAutomation2.AddProducttocart">
 				<methods>
-					<include name="productadd" />
+					<include name="productadd"/>
 
 				</methods>
 			</class>

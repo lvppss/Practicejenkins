@@ -99,7 +99,7 @@
 					<version>3.0.0-M7</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>testngmanagebookingpages.xml</suiteXmlFile>
+							<suiteXmlFile>/testngbatchexecution.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
@@ -108,7 +108,7 @@
 	</build>
 	<profiles>
 		<profile>
-			<id>managebooking</id>
+			<id>parallel</id>
 			<build>
 				<plugins>
 					<plugin>
@@ -117,7 +117,7 @@
 						<version>3.0.0-M7</version>
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFile>testngmanagebookingpages.xml</suiteXmlFile>
+								<suiteXmlFile>testngparallelexecution.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
